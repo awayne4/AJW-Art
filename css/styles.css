@@ -1,8 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
 
 body {
 	font-family: "Port Lligat Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
+  line-height: normal;
 }
 
+img {
+	max-width: 100%;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #A1D9E6;
+	position: sticky;
+	top: 0;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	height: 30px;
+	padding: 8px 0;
+	align-items: center;
+	gap: 12px;
+	flex-shrink: 0;
+}
+
+.logo {
+	width: 170px;
+}
+
+a {
+	color: #000;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.btn {
+	border-radius: 4px;
+	border: 7px solid #4F0500;
+	background: #C9001E;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+	color: #A1D9E6;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+}
+.btn:hover {
+	border: 7px solid #335E69;
+	background: #335E69
+
+}
+
+.hero {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 7rem;
+	gap: 10rem;
+	background: #335E69;
+	color: #A1D9E6;
+}
+
+.hero h1 {
+	color: #A1D9E6;
+	text-align: center;
+	font-family: Hurricane;
+	font-size: 75px;
+	font-weight: 400;
+	margin: 0;
+}
+
+
+
+.hero img {
+	display: flex;
+	max-width: 300px;
+}
+
+footer {
+	background: #A1D9E6;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
