@@ -73,6 +73,22 @@ a:hover {
 	color: #A1D9E6;
 }
 
+.hero a {
+	border-radius: 4px;
+	border: 7px solid #4F0500;
+	background: #C9001E;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+	color: #A1D9E6;
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.hero a:hover {
+	border: 7px solid #335E69;
+	background: #335E69
+}
+
 .hero h1 {
 	color: #A1D9E6;
 	text-align: center;
@@ -89,7 +105,48 @@ a:hover {
 	max-width: 300px;
 }
 
+.featured {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 5rem;
+	gap: 2rem;
+}
+
+.featured a {
+	border-radius: 4px;
+	border: 7px solid #4F0500;
+	background: #C9001E;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+	color: #A1D9E6;
+	text-align: center;
+	width: 295px;
+	height: 48px;
+	font-size: 35px;
+}
+
+.featured a:hover {
+	border: 7px solid #335E69;
+	background: #335E69
+}
+
+.purple {
+	width: 300px;
+	height: 300px;
+	aspect-ratio: 1/1;
+	border-radius: 8px;
+
+}
+
+.hawkfrost {
+	width: 300px;
+	height: 300px;
+	aspect-ratio: 1/1;
+	border-radius: 8px;
+}
+
 footer {
+	height: 200px;
 	background: #A1D9E6;
 	display: flex;
 	justify-content: space-between;
