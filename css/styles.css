@@ -21,6 +21,12 @@ nav {
 	top: 0;
 }
 
+@media screen and (max-width: 900px) {
+	nav {
+		flex-direction: column;
+	}
+}
+
 ul {
 	list-style: none;
 	display: flex;
@@ -98,11 +104,20 @@ a:hover {
 	margin: 0;
 }
 
-
-
 .hero img {
 	display: flex;
 	max-width: 300px;
+}
+
+@media screen and (max-width: 900px) {
+	.hero {
+		flex-direction: column;
+	}
+	
+	.hero h1 {
+		font-size: 50px;
+	}
+
 }
 
 .featured {
@@ -145,6 +160,12 @@ a:hover {
 	border-radius: 8px;
 }
 
+@media screen and (max-width: 900px) {
+	.featured {
+		flex-direction: column;
+	}
+}
+
 footer {
 	height: 200px;
 	background: #A1D9E6;
@@ -152,3 +173,4 @@ footer {
 	justify-content: space-between;
 	align-items: center;
 }
+
